@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:fadingEdge="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbSortByName"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:text="Sort by name" />
+
+        <RadioButton
+            android:id="@+id/rbSortByNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sort by number" />
+
+        <RadioButton
+            android:id="@+id/rbSortBySex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sort by sex" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

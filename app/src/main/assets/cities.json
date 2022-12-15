@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Moscow",
+    "code": "msk",
+    "population": 10700000
+  },
+  {
+    "name": "Kazan",
+    "code": "kzn",
+    "population": 3483838
+  },
+  {
+    "name": "St. Petersburg",
+    "code": "spb",
+    "population": 24562452
+  },
+  {
+    "name": "Nijny Novgorod",
+    "code": "nn",
+    "population": 234234235
+  },
+  {
+    "name": "Sochi",
+    "code": "sch",
+    "population": 121234929
+  }
+]
